@@ -20,8 +20,7 @@ p
     text-align: center;
 }
 
-#sec1
-{
+#sec1{
     display: flex;
     position: relative;
     justify-content: center;
