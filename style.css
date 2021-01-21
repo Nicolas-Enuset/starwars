@@ -1,0 +1,64 @@
+body
+{
+    background-image: url("fond-é.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+h1
+{
+    color:cyan;
+    text-align: center;
+}
+
+p
+{
+    color: yellow;
+    text-align: center;
+}
+
+#wrap
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 800px;
+    perspective: 900px;
+    font-size: 4em;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+#crawl
+{
+    position: relative;
+    top: -9999px;
+    transform-origin: 50% 100%;
+    animation: crawl 80s linear;
+}
+
+@keyframes crawl
+{
+    0%
+    { top: 0;
+    transform: rotateX(30deg) translateZ(0);
+    }
+    100%
+    {
+        top: -6200px;
+        transform: rotateX(30deg) translateZ(-3000px);
+    }
+}
+
+.flou {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    top: -25px;
+    background-image: linear-gradient(0deg, transparent, black 75%);
+    z-index: 1;
+  }
