@@ -2,11 +2,11 @@
 
 Mise en place d'une page défilente
 
-##Language utilisé
+## Language utilisé
 
 HTML et CSS
 
-##Réalisation
+## Réalisation
 
 Nicolas Enuset
 
